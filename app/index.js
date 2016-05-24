@@ -5,7 +5,7 @@ var routes = require('./config/routes');
 var HelloWorld = React.createClass({
   render: function () {
     return (
-      <div> Hello World </div>
+      <div>jijij</div>
     )
   }
 });
