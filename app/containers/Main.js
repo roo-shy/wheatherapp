@@ -1,5 +1,5 @@
 var React = require('react');
-
+var Header = require('../components/Header');
 
 var HelloWorld = React.createClass({
   render: function () {
@@ -9,4 +9,4 @@ var HelloWorld = React.createClass({
   }
 });
 
-modul.exports = Main;
+module.exports = Main;

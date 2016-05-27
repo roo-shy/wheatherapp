@@ -7,4 +7,4 @@ var PropTypes = React.PropTypes;
    )
  }
 
- module.exports = Home;
+ module.exports = Home

@@ -1,11 +1,11 @@
 {
   "name": "wheatherapp",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple weather app using React.js",
   "main": "index.js",
   "scripts": {
     "production": "webpack -p",
-    "start": "webpack-dev-server"
+    "dev": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,8 @@
   "homepage": "https://github.com/roo-shy/wheatherapp#readme",
   "dependencies": {
     "react": "^15.1.0",
-    "react-dom": "^15.1.0"
+    "react-dom": "^15.1.0",
+    "react-router": "^2.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.9.0",
