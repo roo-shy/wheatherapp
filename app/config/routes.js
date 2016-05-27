@@ -8,11 +8,11 @@ var Main = require('../containers/Main');
 var Home = require('../components/Home');
 
 var routes = (
-  <Router history={hashHistory}>
+  < Router history={hashHistory}>
    <Route path='/' component={Main}>
-   <IndexRoute component={Home} />
+   <Route path='/home' component={Home} />
    </Route>
   </Router>
-)
+);
 
 module.exports = routes;
