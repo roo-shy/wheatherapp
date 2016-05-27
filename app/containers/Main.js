@@ -1,17 +1,20 @@
 var React = require('react');
-require('../main.css');
+var Header = require('../components/Header')
+
+var styles = {
+  container: {
+    width: '100%',
+    height: '94%'
+  }
+}
 
 var Main = React.createClass({
   render: function () {
     return (
-    <div className='main-container'>
-      <ReactCSSTransitionGroup
-        transitionName='appear'
-        transitionEnterTimeout={500}
-        transitionLeaveTimeout={500}>
-         {React.cloneElement(this.props.children, {key: this.props.location.pathname})}
-      </ReactCSSTransitionGroup>
-    </div>
+      <div style={styles.container}>
+        <Header />
+        {this.props.children}
+      </div>
     )
   }
 });
