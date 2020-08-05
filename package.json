@@ -1,22 +1,22 @@
 {
-  "name": "wheatherapp",
+  "name": "react-fundamentals-curriculum",
   "version": "1.0.0",
-  "description": "Simple weather app using React.js",
+  "description": "Curriculum for React.js Program's React Fundamentals course.",
   "main": "index.js",
   "scripts": {
-    "production": "webpack -p",
-    "start": "webpack-dev-server --port 8000"
+    "start": "webpack-dev-server",
+    "prod": "webpack -p"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/roo-shy/wheatherapp.git"
+    "url": "git+https://github.com/ReactjsProgram/react-fundamentals-curriculum.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Tyler McGinnis <tylermcginnis33@gmail.com> (http://tylermcginnis.com)",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/roo-shy/wheatherapp/issues"
+    "url": "https://github.com/ReactjsProgram/react-fundamentals-curriculum/issues"
   },
-  "homepage": "https://github.com/roo-shy/wheatherapp#readme",
+  "homepage": "http://courses.reactjsprogram.com/courses/reactjsfundamentals",
   "dependencies": {
     "axios": "^0.9.1",
     "react": "^0.14.7",
@@ -24,10 +24,9 @@
     "react-router": "^2.0.0"
   },
   "devDependencies": {
-    "babel-core": "^6.7.0",
+    "babel-core": "^6.5.2",
     "babel-loader": "^6.2.4",
     "babel-preset-react": "^6.5.0",
-    "file-loader": "^0.8.5",
     "html-webpack-plugin": "^2.9.0",
     "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1"
